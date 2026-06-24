@@ -1,0 +1,26 @@
+# Eclipse and Java
+.classpath
+.project
+.settings/
+
+# Build output
+build/
+classes/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ
+.idea/
+*.iml
+
+# Maven / Gradle
+target/

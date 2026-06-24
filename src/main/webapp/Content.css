@@ -1,0 +1,535 @@
+.nav {
+	background-color: lightblue;
+	padding: 10px;
+}
+
+.logo {
+	margin-left: 50px;
+	width: 150px;
+	height: 80px;
+}
+
+.nav a {
+	margin-top: 30px;
+	margin-left: 150px;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding: 8px 12px;
+	display: inline-block;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.active {
+	background-color: #007bff;
+	color: white;
+	border-radius: 5px;
+}
+
+.nav a:hover {
+	background-color: #007bff;
+	color: white;
+	border-radius: 5px;
+}
+
+h2 {
+	margin-top: 30px;
+	font-family: times new roman;
+}
+
+.login {
+	text-align: center;
+}
+
+input {
+	margin-top: 10px;
+}
+
+body:not(.home) {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #add8e6, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* ATTENDANCE JSP */
+
+
+.buttons button{
+	background-color: blue;
+}
+.buttons, button {
+  margin-top: 15px;
+  padding: 8px 10px;
+  color: white;
+  margin:10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.Entire_form {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 40px;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.First_form, .Second_form {
+	background: white;
+	padding: 25px;
+	border-radius: 12px;
+	width: 280px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	flex-shrink: 0;
+}
+
+.First_form form, .Second_form form {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.First_form input, .Second_form input, .First_form select,.Second_form select
+	{
+	padding: 8px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+/* Buttons */
+.First_form button, .Second_form button{
+	margin-top: 15px;
+	padding: 8px 10px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+.First_form button:hover, .Second_form button:hover
+	{
+	background: #0056b3;
+}
+
+
+
+/* Responsive (if screen smaller) */
+@media screen and (max-width: 900px) {
+	.Entire_form {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+
+
+
+/* CONTACT PAGE */
+
+
+/* for cards */
+.contactPage {
+	width: 90%;
+	margin: 40px auto;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+/* For Each Card */
+.Contactcard,.Addresscard,.Mailcard {
+	background: white;
+	width: 300px;
+	padding: 25px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+/* Heading for Each Card */
+.Contactcard .Addresscard .Mailcard h4 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+/* P tag for Each Card */
+.Contactcard, .Addresscard,.Mailcard p {
+	margin: 0;
+	font-size: 16px;
+}
+
+/* Link of MailCard */
+.Contactcard .Addresscard .Mailcard a {
+	text-decoration: none;
+	color: #007bff;
+	font-weight: bold;
+}
+body .contactLinks {
+	position: absolute;
+	left: 45%;
+	bottom: 40%;
+	justify-content: center;
+}
+
+.contactLinks .vcubejava a {
+	/* 	text-decoration-color: white; */
+	color: #000000;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.contactLinks .vcubejava img {
+	width: 20px;
+	height: 20px;
+}
+
+
+
+
+
+
+
+/* Login Page Card Container */
+
+.login-container {
+	width: 350px;
+	margin: 70px auto;
+	padding: 25px;
+	background: white;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+/* Inputs */
+.login-container input {
+	width: 100%;
+	padding: 10px;
+	margin-top: 12px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+}
+
+/* Login Button */
+.login-container button {
+	width: 100%;
+	padding: 10px;
+	margin-top: 18px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.login-container button:hover {
+	background: #0056b3;
+}
+
+/* Labels */
+.login-container label {
+	font-weight: bold;
+	margin-top: 10px;
+	display: block;
+}
+
+.insert-container {
+	width: 450px;
+	margin: 50px auto;
+	padding: 25px;
+	background: white;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.insert-container form {
+	display: flex;
+	flex-direction: column;
+}
+
+.insert-container input, .insert-container select {
+	padding: 10px;
+	margin-top: 12px;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+}
+
+.insert-container button {
+	margin-top: 20px;
+	padding: 10px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.insert-container button:hover {
+	background: #0056b3;
+}
+
+.attendance-container {
+	width: 80%;
+	margin: 40px auto;
+	background: white;
+	padding: 25px;
+	border-radius: 12px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.attendance-container h4 {
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+
+.table {
+	background: white;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+/* VIEW Students.JSP */
+
+body .ViewStudents_form{
+	margin-left:600px;
+	margin-top:150px;
+	align-items: center;
+}	
+.ViewStudents_form{
+	background: white;
+	padding: 25px;
+	border-radius: 12px;
+	width: 300px;
+	align-items:center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	justify-content: center;
+}
+
+.ViewStudents_form input {
+	padding: 8px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.ViewStudents_form button{
+	margin-top: 15px;
+	padding: 8px 10px;
+	background: #007bff;
+	margin-left:70px;
+	width:200px;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+.ViewStudents_form button:hover{
+	background: #0056b3;
+}
+
+
+/* GetAttendance.jsp */
+.getAttendanceForm {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	margin-top: 40px;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.getAttendanceForm {
+	align-items:center;
+	background: white;
+	padding: 25px;
+	border-radius: 12px;
+	width: 280px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	flex-shrink: 0;
+}
+
+.getAttendanceForm input select
+	{
+	padding: 8px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+/* Buttons */
+.getAttendanceForm button{
+	margin-top: 15px;
+	width:200px;
+	align-items:center;
+	padding: 8px 10px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: bold;
+}
+
+.getAttendanceForm button:hover{
+	background: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Students_DATA  */
+
+h2 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+table {
+	width: 80%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background: #fff;
+}
+
+th, td {
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th {
+	background-color: #007BFF;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+
+
+
+/* EditStudent */
+.editForm {
+	background: white;
+	padding: 25px;
+	border-radius: 12px;
+	width: 280px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	flex-shrink: 0;
+	margin-left: 41%;
+}
+
+.editForm input, .editForm select
+	{
+	padding: 8px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+/* Buttons */
+.editForm button{
+	margin-top: 15px;
+	width:100px;
+	background: #007bff;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-weight: bold;
+	margin-left: 55px;
+}
+
+.editForm button:hover
+	{
+	background: #0056b3;
+}
+
+
+
+
+
+
+
+
+.foot footer{
+  position: fixed;
+  bottom: 0;             
+  width: 100%;          
+  background-color: #18b8e7; 
+  color: white;
+  text-align: center;    
+  padding: 10px;
+}
+
+body {
+	background: linear-gradient(135deg, #add8e6, #000000);
+}
